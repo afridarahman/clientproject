@@ -1,0 +1,39 @@
+.navbar {
+    display:flex;
+    justify-content:space-around;
+    background-color:#2b2929;
+    padding:15px;
+    font-size:20px;
+}
+.header {
+    display:flex;
+    justify-content:center;
+    background-color: black;
+    font-size: 45px;
+    color:white;
+}
+.search {
+    display:flex;
+    justify-content:flex-end;
+    background-color: black;
+    font-size: 45px;
+    color:white;
+}
+.footer {
+    background-color:#2b2929;
+}
+#library {
+    width:100%;
+}
+.ourfav {
+    display:flex;
+    justify-content:center;
+    background-color:#2b2929;
+    color:white;
+}
+.afridasfav {
+    width:50%;
+}
+.leandrasfav {
+    width:50%;
+}
