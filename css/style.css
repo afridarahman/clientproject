@@ -1,26 +1,26 @@
 .navbar {
     display:flex;
-    justify-content:space-around;
-    background-color:#2b2929;
+    justify-content:space-between;
+    background-color:#DC143C;
     padding:15px;
     font-size:20px;
 }
 .header {
     display:flex;
     justify-content:center;
-    background-color: black;
+    background-color:#CD5C5C;
     font-size: 45px;
     color:white;
 }
 .search {
     display:flex;
     justify-content:flex-end;
-    background-color: black;
+    background-color: #F08080;
     font-size: 45px;
     color:white;
 }
 .footer {
-    background-color:#2b2929;
+    background-color:#F08080;
 }
 #library {
     width:100%;
@@ -28,12 +28,24 @@
 .ourfav {
     display:flex;
     justify-content:center;
-    background-color:#2b2929;
+    background-color:#F08080;
     color:white;
 }
 .afridasfav {
     width:50%;
 }
 .leandrasfav {
+    width:50%;
+}
+.contact {
+    display:flex;
+    justify-content:center;
+    background-color:#F08080;
+    color:white;
+}
+.afridasContact {
+    width:50%;
+}
+.leandrasContact {
     width:50%;
 }
