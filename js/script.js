@@ -1,14 +1,17 @@
-$("#search-button").click(function(){
-    var searchTerm = $('#search-term').val();
-    var giphyAPI = "https://www.googleapis.com/books/v1/volumes?q=" + searchTerm + "&api_key=dc6zaTOxFJmzC";
+/* global $ */
+$(document).ready(function() {
+
+$("button").click(function(){
+    var searchTerm = $('.search-term').val();
+    var giphyAPI = "https://www.googleapis.com/books/v1/volumes?q=harry%20potter";
     $.ajax({
         url: giphyAPI,
         method: "GET",
         success: function(response) {
-            var randomNum = Math.floor(Math.random()*(response.searchInfo.length));
-            var book = response.searchInfo.textSnippet;
-            $('.text-center').html('<img src =' + book + '/>');
+            var bookTitle = response.items[0].volumeInfo.title
+            $('.searchResult').html(bookTitle);
         }
     });
 
+});
 });
