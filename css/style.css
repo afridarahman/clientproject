@@ -59,16 +59,18 @@ body {
 .searchTitle {
     font-family: 'Arima Madurai', cursive;
     font-size: 30px;
+    display: flex;
+    justify-content: center
 }
 .searchDescription {
     font-family: 'Arima Madurai', cursive;
     font-size: 20px;
+    display: flex;
+    justify-content: center
 }
 .searchImage {
     width: 200px;
     length: 400px;
-}
-.searchDiv {
     display: flex;
     justify-content: center
 }
