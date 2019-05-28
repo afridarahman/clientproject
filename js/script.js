@@ -10,10 +10,12 @@ $.ajax({
         success: function(response) {
             var bookTitle = response.items[0].volumeInfo.title;
             var bookAuthor = response.items[0].volumeInfo.authors;
-            $('.searchResult').html(bookTitle + " " + "by" + " " + bookAuthor);
-        }
+            var bookDescription = response.items[0].volumeInfo.description;
+            var bookImage = response.items[0].volumeInfo.imageLinks.thumbnail;
+            $('.searchImage').html('<img src =' + bookImage + '/>')
+            $('.searchTitle').html(bookTitle + " " + "by" + " " + bookAuthor)
+            $('.searchDescription').html(bookDescription)
+         }
     });
-
-
 });
 });

@@ -1,35 +1,42 @@
 .navbar {
     display:flex;
     justify-content:space-between;
-    background-color:#ffcc00;
+    background-color:#ffdd99;
     padding:15px;
     font-size:20px;
+    color:black;
 }
 .header {
     display:flex;
     justify-content:center;
-    background-color:#ff9900;
+    background-color:#ff9933;
     font-size: 45px;
     color:white;
 }
 .search {
     display:flex;
     justify-content:flex-end;
-    background-color: #ffcc00;
+    background-color:#ffdd99;
     font-size: 45px;
-    color:#ffff00;
+    color:white;
 }
 .footer {
     background-color:#ffcc00;
+    display:flex;
+    justify-content:space-around;
 }
 #library {
     width:100%;
 }
+body {
+    background-color:#ffd480;
+}
 .ourfav {
     display:flex;
     justify-content:center;
-    background-color:#ffcc00;
     color:white;
+    text-shadow:2px 2px 2px black;
+    font-size: 18px;
 }
 .afridasfav {
     width:50%;
@@ -40,7 +47,7 @@
 .contact {
     display:flex;
     justify-content:center;
-    background-color:#ffcc00;
+    background-color:#ffd480;
     color:white;
 }
 .afridasContact {
@@ -48,4 +55,20 @@
 }
 .leandrasContact {
     width:50%;
+}
+.searchTitle {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+}
+.searchDescription {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+}
+.searchImage {
+    width: 200px;
+    length: 400px;
+}
+.searchDiv {
+    display: flex;
+    justify-content: center
 }
